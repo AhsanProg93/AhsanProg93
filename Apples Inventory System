@@ -1,0 +1,15 @@
+print("Welcome to Apple.com")
+print("73% Off!\n")
+
+sale = "with 73% Off"
+apple = int(input("Enter Quantity(for Apple): "))  
+one_apple_price = 30.99
+discount = 0.27
+apple_price = apple * (one_apple_price * discount)
+
+if(apple == 1):
+    print(f"You buy {apple} apple.")
+else:
+    print(f"You buy {apple} apples.")
+
+print(f"Your Total is ${apple_price:.2f} {sale}")
